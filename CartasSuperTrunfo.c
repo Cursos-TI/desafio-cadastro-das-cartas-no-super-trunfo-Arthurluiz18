@@ -29,7 +29,7 @@ int main() {
     int pontos_turisticos2;
 
     //obtendo dados da carta 01
-    
+
     printf("Digite seu estado de (A-H): \n");
     scanf("%c", &estado);
 
@@ -52,6 +52,8 @@ int main() {
     scanf("%f", &pontos_turisticos);
 
     //obtendo dados da carta 02
+
+    printf("Carta 2:\n");
 
     printf("Digite seu estado de (A-H): \n");
     scanf("%c", &estado2);
