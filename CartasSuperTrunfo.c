@@ -7,6 +7,17 @@
 //Teste larissa
 
 int main() {
+
+    printf("Jogo de cartas surper trufo \n");
+    // carta 01 - declarando variaveis
+    char estado;
+    char cidade;
+    char codigo;
+    int populacao;
+    float tamanho;
+    float pib;
+    int pontos_turisticos;
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
