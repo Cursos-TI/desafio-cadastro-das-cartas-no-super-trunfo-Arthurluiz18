@@ -24,7 +24,7 @@ int main() {
     char cidade2[4];
     char codigo2[50];
     int populacao2;
-    float tamnho2;
+    float tamanho2;
     float pib2;
     int pontos_turisticos2;
 
@@ -33,7 +33,7 @@ int main() {
     printf("Digite seu estado de (A-H): \n");
     scanf("%c", &estado);
 
-    print("Digite seu codigo (Exemplo: A01, B01: \n");
+    printf("Digite seu codigo (Exemplo: A01, B02) \n");
     scanf("%s", &codigo);
 
     printf("Digite sua cidade: \n");
@@ -51,7 +51,37 @@ int main() {
     printf("Digite a quantidade de pontos turisticos: \n");
     scanf("%f", &pontos_turisticos);
 
+    //obtendo dados da carta 02
+
+    printf("Digite seu estado de (A-H): \n");
+    scanf("%c", &estado2);
+
+    printf("Digite seu codigo (Exemplo: A01, B02) \n");
+    scanf("%s", &codigo2);
+
+    printf("Digite sua cidade: \n");
+    scanf("%s", &cidade2);
+
+    printf("Digite a populacao: \n");
+    scanf("%d", &populacao2);
+
+    printf("Digite o tamanho em Km² \n");
+    scanf("%f", &tamanho2);
+
+    printf("Digite o PIB: \n");
+    scanf("%f", &pib2);
+
+    printf("Digite a quantidade de pontos turisticos: \n");
+    scanf("%d", &pontos_turisticos2);
+
+    //imprimindo dados da carta 01
     
+
+
+
+
+
+
 
 
 
