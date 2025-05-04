@@ -11,12 +11,51 @@ int main() {
     printf("Jogo de cartas surper trufo \n");
     // carta 01 - declarando variaveis
     char estado;
-    char cidade;
-    char codigo;
+    char cidade[4];
+    char codigo[50];
     int populacao;
     float tamanho;
     float pib;
     int pontos_turisticos;
+
+    //carta 02 - declarando variaveis
+
+    char estado2;
+    char cidade2[4];
+    char codigo2[50];
+    int populacao2;
+    float tamnho2;
+    float pib2;
+    int pontos_turisticos2;
+
+    //obtendo dados da carta 01
+    
+    printf("Digite seu estado de (A-H): \n");
+    scanf("%c", &estado);
+
+    print("Digite seu codigo (Exemplo: A01, B01: \n");
+    scanf("%s", &codigo);
+
+    printf("Digite sua cidade: \n");
+    scanf("%s", &cidade);
+
+    printf("Digite a populacao: \n");
+    scanf("%d", &populacao);
+
+    printf("Digite o tamanho em Km²: \n");
+    scanf("%f", &tamanho);
+
+    printf("Digite o PIB: \n");
+    scanf("%f", &pib);
+
+    printf("Digite a quantidade de pontos turisticos: \n");
+    scanf("%f", &pontos_turisticos);
+
+    
+
+
+
+
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
